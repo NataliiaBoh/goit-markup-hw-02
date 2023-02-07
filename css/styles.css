@@ -1,8 +1,36 @@
+:root {
+    --primary-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --accent-color: #4D5AE5;
+    --primary-white-color:#fff;
+}
 /* основний колір #434455 */
 /* другорядний колір #2E2F42 */
 /* білий #FFFFFF */
 /* акцент #4D5AE5 */
+/* акцент фон #404BBF */
+
+.list {
+  list-style: none;  
+}
 .body {
-    background-color: #fff;
-    color:#434455 ;
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+/* header */
+.logo {
+    color: var(--title-text-color);
+}
+.accent {
+    color: var(--accent-color);
+}
+.nav-list {
+    color: var(--title-text-color);
+}
+.nav-list:hover, .nav-list:focus {
+    color: #404BBF;
+}
+/* main */
+.section_title {
+    color: var(--title-text-color);
 }
